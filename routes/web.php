@@ -33,4 +33,5 @@ Route::post('save-category', 'App\Http\Controllers\Admin\CategoryController@stor
 Route::get('menu/{slug}', 'App\Http\Controllers\Admin\MenuController@showMenuItem');
 Route::get('category/{slug}', 'App\Http\Controllers\Admin\CategoryController@listItemsUnderCategory');
 Route::get('about', 'App\Http\Controllers\FrontController@about');
+Route::get('checkout', 'App\Http\Controllers\FrontController@checkout');
 require __DIR__.'/auth.php';
